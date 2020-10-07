@@ -129,6 +129,9 @@ body {
   height: 16px;
   margin-right: 10px;
 }
+.address-link:hover {
+  fill: var(--main-focus-color);
+}
 
 /* ======END HEADER====== */
 
@@ -146,6 +149,7 @@ body {
     url(../img/sprite/heroimg-min.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-color: rgb(20, 20, 87);
 }
 .container-hero {
   padding: 200px 0px;
@@ -213,7 +217,6 @@ body {
 }
 .advantages-list-item {
   width: 270px;
-  height: 101px;
 }
 .advantages-list :not(:last-child) {
   margin-right: 30px;
@@ -323,7 +326,7 @@ body {
 .team-social-link-list {
   display: flex;
   justify-content: space-between;
-  padding-top: 16px;
+  margin-top: 16px;
 }
 .team-social-link-list:not(:last-child) {
   margin-right: 10px;
@@ -356,6 +359,15 @@ body {
 /* ======CLIENTS====== */
 .clients {
   padding: 94px 0px;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  margin-bottom: 50px;
 }
 .clients-list {
   display: flex;
